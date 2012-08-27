@@ -1,0 +1,9 @@
+<?php 
+require_once 'vendor/Idiorm/idiorm.php';
+require_once 'vendor/Paris/paris.php';
+
+ORM::configure('mysql:dbname=nucleo;host=127.0.0.1;port=3307'); // DSN string for database
+ORM::configure('username','dwaynemac');
+ORM::configure('password','c45p3r!');
+
+?>

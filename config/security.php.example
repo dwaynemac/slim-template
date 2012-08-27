@@ -1,0 +1,6 @@
+<?php 
+
+  define('__DEMAND_SSL__',false); // if this is true only HTTPS request will be handled
+  define('API_KEY','secured');    // set here your api_key
+
+?>
